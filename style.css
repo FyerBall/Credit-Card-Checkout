@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', sans-serif;
+ margin: 0;
+  background-color: #222831;
+}
+
+.credit-card {
+  background: #393e46;
+  width: 360px;
+  height: 400px;
+  margin: 50px auto 0;
+  border: 1px solid #00adb5;
+  border-radius: 25px 25px;
+  box-shadow: 2px 2px 2px 2px #00adb5;
+}
+
+.form-header {
+  height: 60px;
+  padding: 20px 30px 10px;
+  border-bottom: 1px solid #00adb5;
+}
+
+.title {
+  font-size: 21px;
+  color: #00adb5;
+}
+
+.form-body {
+  padding: 30px 30px 20px;
+}
+
+.card-number, .cvv input, .cvv-details,
+.month select, .year select{
+  border: 2px solid #00adb5;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 20px;
+  letter-spacing: 3px;
+  color: #00adb5;
+  opacity: .5;
+  border-radius: 20px;
+  outline: none;
+  padding: 3px;
+}
+
+
+.month select, .year select {
+  border: 2px solid #eeeeee;
+  width: 100px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.month select {
+  float: left;
+}
+
+.year select {
+  float: right;
+}
+
+
+.cvv input {
+  float: left;
+  width: 115px;
+  padding-left: 20px;
+  border: 2px solid #00adb5;
+  border-radius: 5px;
+  background: #eeeeee;
+  margin-top: 22px;
+}
+
+.card-detail{
+  float: right;
+  color: #00adb5;
+  font-size: 15px;
+  font-weight: lighter;
+  margin-bottom: 22px;
+}
+
+.paypal-btn, .proceed-btn {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 200;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+}
+
+.paypal-btn a, .proceed-btn a{
+  text-decoration: none;
+}
+
+.proceed-btn {
+  margin-bottom: 10px;
+  background: #7dc855;
+}
+
+.proceed-btn a{
+  color: #fff;
+}
+
+.paypal-btn {
+  margin-bottom: 10px;
+  background: #1072B7;
+}
+
+.paypal-btn a{
+  color: #fff;
+}

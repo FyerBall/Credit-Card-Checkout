@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <title>Checkout</title>
+</head>
+
+<body>
+  <form class="credit-card">
+    <div class="form-header">
+      <h1 class="title">Credit Card Detail</h1>
+    </div>
+    <div class="form-body">
+      <input type="text" placeholder="Card Number" class="card-number">
+      <div class="date-field">
+        <div class="month">
+          <select class="" name="Month">
+            <option value="january">January</option>
+            <option value="february">February</option>
+            <option value="march">March</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="october">October</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+          </select>
+        </div>
+        <div class="year">
+          <select class="" name="Year">
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2027">2027</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="card-verification">
+        <div class="cvv">
+          <input type="text" placeholder="CVV">
+        </div>
+        <div class="card-detail">
+          <p>3 digits usually found <br> on the signature strip</p>
+        </div>
+      </div>
+
+      <button type="button" class="proceed-btn"><a href="#">Proceed</a></button>
+      <button type="button" class="paypal-btn"><a href="#">Paypal</a></button>
+    </div>
+  </form>
+
+</body>
+
+</html>
